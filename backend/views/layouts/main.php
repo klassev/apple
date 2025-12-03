@@ -36,6 +36,7 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Главная', 'url' => ['/site/index']],
+        ['label' => '🍎 Яблоки', 'url' => ['/apple/index']],
     ];
     
     echo Nav::widget([
